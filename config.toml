@@ -1,0 +1,71 @@
+baseURL = "https://trilog.jameshsu.csie.org"
+languageCode = "zh-TW"
+title = "三分"
+theme = "maupassant"
+googleAnalytics = "UA-141844348-3"  # UA-XXXXXXXX-X
+
+## 保持分类的原始名字（false会做转小写处理）
+preserveTaxonomyNames = true
+## 是否禁止URL Path转小写
+disablePathToLower = true
+
+hasCJKLanguage = true
+summaryLength = 140
+
+disqusShortname = "jameshwc"  ## 是否开启disqus评论，不要和utteranc同时开启
+
+[author]
+  name = "jameshwc"
+
+[params]
+  author = "jameshwc"
+  subtitle = "三分"
+  keywords = "心理學,經濟學,思維模型"
+  description = "三分"
+  busuanzi = true #启用不算子网页统计
+  googleAd = ""  #ca-pub-xxxxxxxxxxxxxx
+  localSearch = true # 启用本地搜索
+
+  # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
+  customCSS = ['douban.css', 'other.css']
+  # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = ['douban.js']
+  # if ['custom.js'], load '/static/js/custom.js' file
+
+  # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
+  toc = true  # 是否开启目录
+
+## 友情链接，可以多个
+
+[[params.links]]
+  title = "三分"
+  name = "三分"
+  url = "https://trilog.jameshsu.csie.org"
+
+## 开启版权声明，协议名字和链接都可以换
+[params.cc]
+    name = "CC BY-NC-ND 4.0"
+    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+## 配置代码高亮
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "github"
+
+## 配置网站菜单
+
+[menu]
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "文章彙整"
+    url = "/archives/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "關於"
+    url = "/about/"
+    weight = 4
+
