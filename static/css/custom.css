@@ -1,6 +1,18 @@
 .post-title {
-    font-size: 20px;
+    font-size: 25px;
 }
 .post-content {
+    font-size: 18px;
+}
+.widget {
+    font-size: 18px;
+}
+.widget-title {
+    font-size: 18px;
+}
+#nav-menu {
+    font-size: 18px;
+}
+#footer {
     font-size: 18px;
 }
