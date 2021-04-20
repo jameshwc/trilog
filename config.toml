@@ -27,7 +27,7 @@ disqusShortname = "jameshwc"  ## 是否开启disqus评论，不要和utteranc同
   localSearch = true # 启用本地搜索
 
   # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
-  customCSS = ['douban.css', 'other.css']
+  customCSS = ['custom.css', 'other.css']
   # if ['custom.css'], load '/static/css/custom.css' file
   customJS = ['douban.js']
   # if ['custom.js'], load '/static/js/custom.js' file
